@@ -1,4 +1,4 @@
-from flask import Flask, redirect, render_template, make_response, request,  jsonify
+from flask import Flask, redirect, render_template, make_response, request
 import os
 
 basedir = os.path.abspath(os.path.dirname(__file__))
@@ -14,15 +14,18 @@ app = Flask(__name__)
 
 @app.route("/")
 def root():
-    return render_template('/index.html')
-@app.route("/flag")
-def flag():
-    flag = "THM{P1Ng_0F_P1cTuR3H0Us3}"
     file_size = len(packets)
     if file_size > 550:
-        return jsonify(flag)
+        return render_template('/flag.html')
     else:
         return render_template('/index.html')
+# @app.route("/flag")
+# def flag():
+#     file_size = len(packets)
+#     if file_size > 550:
+#         return render_template('/flag.html')
+#     else:
+#         return render_template('/index.html')
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0")
