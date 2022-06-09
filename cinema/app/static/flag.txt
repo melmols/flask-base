@@ -1,0 +1,580 @@
+09:38:42.334309 IP (tos 0x0, ttl 63, id 19238, offset 0, flags [DF], proto TCP (6), length 52)
+    ip-10-10-254-52.eu-west-1.compute.internal.http > ip-10-8-88-156.eu-west-1.compute.internal.63647: Flags [.], cksum 0x6b09 (incorrect -> 0x7725), ack 466, win 506, options [nop,nop,TS
+val 1044987392 ecr 3782022592], length 0
+	0x0000:  4500 0034 4b26 4000 3f06 85bb 0a0a fe34
+	0x0010:  0a08 589c 0050 f89f 831e f55b ce4d df8b
+	0x0020:  8010 01fa 6b09 0000 0101 080a 3e49 3e00
+	0x0030:  e16d 15c0
+09:38:42.335389 IP (tos 0x0, ttl 63, id 0, offset 0, flags [DF], proto TCP (6), length 52)
+    ip-10-8-88-156.eu-west-1.compute.internal.63646 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [.], cksum 0x7546 (correct), ack 182, win 2050, options [nop,nop,TS val
+1564609668 ecr 1044987377], length 0
+	0x0000:  4500 0034 0000 4000 3f06 d0e1 0a08 589c
+	0x0010:  0a0a fe34 f89e 0050 f41e 58e4 58c5 09da
+	0x0020:  8010 0802 7546 0000 0101 080a 5d42 0c84
+	0x0030:  3e49 3df1
+09:38:42.335498 IP (tos 0x0, ttl 63, id 0, offset 0, flags [DF], proto TCP (6), length 52)
+    ip-10-8-88-156.eu-west-1.compute.internal.63646 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [.], cksum 0x7478 (correct), ack 390, win 2047, options [nop,nop,TS val
+1564609668 ecr 1044987378], length 0
+	0x0000:  4500 0034 0000 4000 3f06 d0e1 0a08 589c
+	0x0010:  0a0a fe34 f89e 0050 f41e 58e4 58c5 0aaa
+	0x0020:  8010 07ff 7478 0000 0101 080a 5d42 0c84
+	0x0030:  3e49 3df2
+09:38:42.336351 IP (tos 0x0, ttl 63, id 19239, offset 0, flags [DF], proto TCP (6), length 294)
+    ip-10-10-254-52.eu-west-1.compute.internal.http > ip-10-8-88-156.eu-west-1.compute.internal.63647: Flags [P.], cksum 0x6bfb (incorrect -> 0x63c6), seq 1:243, ack 466, win 506, options
+[nop,nop,TS val 1044987394 ecr 3782022592], length 242: HTTP, length: 242
+	HTTP/1.1 304 NOT MODIFIED
+	Server: Werkzeug/2.1.2 Python/3.8.13
+	Date: Thu, 09 Jun 2022 09:38:42 GMT
+	Content-Disposition: inline; filename="Icon 1&2-02.png"
+	Cache-Control: no-cache
+	Date: Thu, 09 Jun 2022 09:38:42 GMT
+	Connection: close
+
+	0x0000:  4500 0126 4b27 4000 3f06 84c8 0a0a fe34
+	0x0010:  0a08 589c 0050 f89f 831e f55b ce4d df8b
+	0x0020:  8018 01fa 6bfb 0000 0101 080a 3e49 3e02
+	0x0030:  e16d 15c0 4854 5450 2f31 2e31 2033 3034
+	0x0040:  204e 4f54 204d 4f44 4946 4945 440d 0a53
+	0x0050:  6572 7665 723a 2057 6572 6b7a 6575 672f
+	0x0060:  322e 312e 3220 5079 7468 6f6e 2f33 2e38
+	0x0070:  2e31 330d 0a44 6174 653a 2054 6875 2c20
+	0x0080:  3039 204a 756e 2032 3032 3220 3039 3a33
+	0x0090:  383a 3432 2047 4d54 0d0a 436f 6e74 656e
+	0x00a0:  742d 4469 7370 6f73 6974 696f 6e3a 2069
+	0x00b0:  6e6c 696e 653b 2066 696c 656e 616d 653d
+	0x00c0:  2249 636f 6e20 3126 322d 3032 2e70 6e67
+	0x00d0:  220d 0a43 6163 6865 2d43 6f6e 7472 6f6c
+	0x00e0:  3a20 6e6f 2d63 6163 6865 0d0a 4461 7465
+	0x00f0:  3a20 5468 752c 2030 3920 4a75 6e20 3230
+	0x0100:  3232 2030 393a 3338 3a34 3220 474d 540d
+	0x0110:  0a43 6f6e 6e65 6374 696f 6e3a 2063 6c6f
+	0x0120:  7365 0d0a 0d0a
+09:38:42.336451 IP (tos 0x0, ttl 63, id 19240, offset 0, flags [DF], proto TCP (6), length 52)
+    ip-10-10-254-52.eu-west-1.compute.internal.http > ip-10-8-88-156.eu-west-1.compute.internal.63647: Flags [F.], cksum 0x6b09 (incorrect -> 0x7630), seq 243, ack 466, win 506, options
+[nop,nop,TS val 1044987394 ecr 3782022592], length 0
+	0x0000:  4500 0034 4b28 4000 3f06 85b9 0a0a fe34
+	0x0010:  0a08 589c 0050 f89f 831e f64d ce4d df8b
+	0x0020:  8011 01fa 6b09 0000 0101 080a 3e49 3e02
+	0x0030:  e16d 15c0
+09:38:42.336835 IP (tos 0x0, ttl 63, id 0, offset 0, flags [DF], proto TCP (6), length 52)
+    ip-10-8-88-156.eu-west-1.compute.internal.63646 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [F.], cksum 0x7475 (correct), seq 428, ack 390, win 2048, options [nop,nop,TS
+val 1564609669 ecr 1044987378], length 0
+	0x0000:  4500 0034 0000 4000 3f06 d0e1 0a08 589c
+	0x0010:  0a0a fe34 f89e 0050 f41e 58e4 58c5 0aaa
+	0x0020:  8011 0800 7475 0000 0101 080a 5d42 0c85
+	0x0030:  3e49 3df2
+09:38:42.336857 IP (tos 0x0, ttl 63, id 0, offset 0, flags [DF], proto TCP (6), length 52)
+    ip-10-10-254-52.eu-west-1.compute.internal.http > ip-10-8-88-156.eu-west-1.compute.internal.63646: Flags [.], cksum 0x7a6b (correct), ack 429, win 506, options [nop,nop,TS val
+1044987394 ecr 1564609669], length 0
+	0x0000:  4500 0034 0000 4000 3f06 d0e1 0a0a fe34
+	0x0010:  0a08 589c 0050 f89e 58c5 0aaa f41e 58e5
+	0x0020:  8010 01fa 7a6b 0000 0101 080a 3e49 3e02
+	0x0030:  5d42 0c85
+09:38:42.352844 IP (tos 0x0, ttl 63, id 0, offset 0, flags [DF], proto TCP (6), length 52)
+    ip-10-8-88-156.eu-west-1.compute.internal.63647 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [.], cksum 0x7018 (correct), ack 243, win 2049, options [nop,nop,TS val
+3782022610 ecr 1044987394], length 0
+	0x0000:  4500 0034 0000 4000 3f06 d0e1 0a08 589c
+	0x0010:  0a0a fe34 f89f 0050 ce4d df8b 831e f64d
+	0x0020:  8010 0801 7018 0000 0101 080a e16d 15d2
+	0x0030:  3e49 3e02
+09:38:42.352964 IP (tos 0x0, ttl 63, id 0, offset 0, flags [DF], proto TCP (6), length 52)
+    ip-10-8-88-156.eu-west-1.compute.internal.63647 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [.], cksum 0x7017 (correct), ack 244, win 2049, options [nop,nop,TS val
+3782022610 ecr 1044987394], length 0
+	0x0000:  4500 0034 0000 4000 3f06 d0e1 0a08 589c
+	0x0010:  0a0a fe34 f89f 0050 ce4d df8b 831e f64e
+	0x0020:  8010 0801 7017 0000 0101 080a e16d 15d2
+	0x0030:  3e49 3e02
+09:38:42.355874 IP (tos 0x0, ttl 63, id 0, offset 0, flags [DF], proto TCP (6), length 52)
+    ip-10-8-88-156.eu-west-1.compute.internal.63647 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [F.], cksum 0x7016 (correct), seq 466, ack 244, win 2049, options [nop,nop,TS
+val 3782022610 ecr 1044987394], length 0
+	0x0000:  4500 0034 0000 4000 3f06 d0e1 0a08 589c
+	0x0010:  0a0a fe34 f89f 0050 ce4d df8b 831e f64e
+	0x0020:  8011 0801 7016 0000 0101 080a e16d 15d2
+	0x0030:  3e49 3e02
+09:38:42.355918 IP (tos 0x0, ttl 63, id 0, offset 0, flags [DF], proto TCP (6), length 52)
+    ip-10-10-254-52.eu-west-1.compute.internal.http > ip-10-8-88-156.eu-west-1.compute.internal.63647: Flags [.], cksum 0x760a (correct), ack 467, win 506, options [nop,nop,TS val
+1044987413 ecr 3782022610], length 0
+	0x0000:  4500 0034 0000 4000 3f06 d0e1 0a0a fe34
+	0x0010:  0a08 589c 0050 f89f 831e f64e ce4d df8c
+	0x0020:  8010 01fa 760a 0000 0101 080a 3e49 3e15
+	0x0030:  e16d 15d2
+09:38:43.177378 IP (tos 0x0, ttl 64, id 5290, offset 0, flags [none], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1339 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [S], cksum 0xc9bd (correct), seq 268952958, win 512, length 0
+	0x0000:  4500 0028 14aa 0000 4006 1ca0 0a0a 373e
+	0x0010:  0a0a fe34 053b 0050 1007 e57e 064b 9942
+	0x0020:  5002 0200 c9bd 0000
+09:38:43.177467 IP (tos 0x0, ttl 63, id 0, offset 0, flags [DF], proto TCP (6), length 44)
+    ip-10-10-254-52.eu-west-1.compute.internal.http > ip-10-10-55-62.eu-west-1.compute.internal.1339: Flags [S.], cksum 0x49a5 (incorrect -> 0x74c1), seq 2915251720, ack 268952959, win
+64240, options [mss 1460], length 0
+	0x0000:  4500 002c 0000 4000 3f06 f245 0a0a fe34
+	0x0010:  0a0a 373e 0050 053b adc3 3608 1007 e57f
+	0x0020:  6012 faf0 49a5 0000 0204 05b4
+09:38:43.178367 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1339 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [R], cksum 0x6b48 (correct), seq 268952959, win 0, length 0
+	0x0000:  4500 0028 0000 4000 4006 f149 0a0a 373e
+	0x0010:  0a0a fe34 053b 0050 1007 e57f 0000 0000
+	0x0020:  5004 0000 6b48 0000
+09:38:44.177614 IP (tos 0x0, ttl 64, id 51560, offset 0, flags [none], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1340 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [S], cksum 0xde22 (correct), seq 2084991265, win 512, length 0
+	0x0000:  4500 0028 c968 0000 4006 67e1 0a0a 373e
+	0x0010:  0a0a fe34 053c 0050 7c46 7121 426f 50d6
+	0x0020:  5002 0200 de22 0000
+09:38:44.177706 IP (tos 0x0, ttl 63, id 0, offset 0, flags [DF], proto TCP (6), length 44)
+    ip-10-10-254-52.eu-west-1.compute.internal.http > ip-10-10-55-62.eu-west-1.compute.internal.1340: Flags [S.], cksum 0x49a5 (incorrect -> 0x86c7), seq 1510309853, ack 2084991266, win
+64240, options [mss 1460], length 0
+	0x0000:  4500 002c 0000 4000 3f06 f245 0a0a fe34
+	0x0010:  0a0a 373e 0050 053c 5a05 7fdd 7c46 7122
+	0x0020:  6012 faf0 49a5 0000 0204 05b4
+09:38:44.178024 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1340 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [R], cksum 0x7365 (correct), seq 2084991266, win 0, length 0
+	0x0000:  4500 0028 0000 4000 4006 f149 0a0a 373e
+	0x0010:  0a0a fe34 053c 0050 7c46 7122 0000 0000
+	0x0020:  5004 0000 7365 0000
+09:38:45.177813 IP (tos 0x0, ttl 64, id 62143, offset 0, flags [none], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1341 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [S], cksum 0x9407 (correct), seq 1666843813, win 512, length 0
+	0x0000:  4500 0028 f2bf 0000 4006 3e8a 0a0a 373e
+	0x0010:  0a0a fe34 053d 0050 635a 04a5 2315 3fb3
+	0x0020:  5002 0200 9407 0000
+09:38:45.177906 IP (tos 0x0, ttl 63, id 0, offset 0, flags [DF], proto TCP (6), length 44)
+    ip-10-10-254-52.eu-west-1.compute.internal.http > ip-10-10-55-62.eu-west-1.compute.internal.1341: Flags [S.], cksum 0x49a5 (incorrect -> 0xed32), seq 918405665, ack 1666843814, win
+64240, options [mss 1460], length 0
+	0x0000:  4500 002c 0000 4000 3f06 f245 0a0a fe34
+	0x0010:  0a0a 373e 0050 053d 36bd c221 635a 04a6
+	0x0020:  6012 faf0 49a5 0000 0204 05b4
+09:38:45.178198 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1341 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [R], cksum 0xf8cc (correct), seq 1666843814, win 0, length 0
+	0x0000:  4500 0028 0000 4000 4006 f149 0a0a 373e
+	0x0010:  0a0a fe34 053d 0050 635a 04a6 0000 0000
+	0x0020:  5004 0000 f8cc 0000
+09:38:46.178096 IP (tos 0x0, ttl 64, id 62964, offset 0, flags [none], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1342 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [S], cksum 0x71dc (correct), seq 496214798, win 512, length 0
+	0x0000:  4500 0028 f5f4 0000 4006 3b55 0a0a 373e
+	0x0010:  0a0a fe34 053e 0050 1d93 a30e 235a 08f6
+	0x0020:  5002 0200 71dc 0000
+09:38:46.178186 IP (tos 0x0, ttl 63, id 0, offset 0, flags [DF], proto TCP (6), length 44)
+    ip-10-10-254-52.eu-west-1.compute.internal.http > ip-10-10-55-62.eu-west-1.compute.internal.1342: Flags [S.], cksum 0x49a5 (incorrect -> 0x17c7), seq 4167531839, ack 496214799, win
+64240, options [mss 1460], length 0
+	0x0000:  4500 002c 0000 4000 3f06 f245 0a0a fe34
+	0x0010:  0a0a 373e 0050 053e f867 7d3f 1d93 a30f
+	0x0020:  6012 faf0 49a5 0000 0204 05b4
+09:38:46.178470 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1342 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [R], cksum 0xa029 (correct), seq 496214799, win 0, length 0
+	0x0000:  4500 0028 0000 4000 4006 f149 0a0a 373e
+	0x0010:  0a0a fe34 053e 0050 1d93 a30f 0000 0000
+	0x0020:  5004 0000 a029 0000
+09:38:47.178321 IP (tos 0x0, ttl 64, id 10020, offset 0, flags [none], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1343 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [S], cksum 0xf98e (correct), seq 1951171768, win 512, length 0
+	0x0000:  4500 0028 2724 0000 4006 0a26 0a0a 373e
+	0x0010:  0a0a fe34 053f 0050 744c 84b8 6ccc ff6c
+	0x0020:  5002 0200 f98e 0000
+09:38:47.178414 IP (tos 0x0, ttl 63, id 0, offset 0, flags [DF], proto TCP (6), length 44)
+    ip-10-10-254-52.eu-west-1.compute.internal.http > ip-10-10-55-62.eu-west-1.compute.internal.1343: Flags [S.], cksum 0x49a5 (incorrect -> 0xe16f), seq 933247994, ack 1951171769, win
+64240, options [mss 1460], length 0
+	0x0000:  4500 002c 0000 4000 3f06 f245 0a0a fe34
+	0x0010:  0a0a 373e 0050 053f 37a0 3bfa 744c 84b9
+	0x0020:  6012 faf0 49a5 0000 0204 05b4
+09:38:47.178714 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1343 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [R], cksum 0x67c5 (correct), seq 1951171769, win 0, length 0
+	0x0000:  4500 0028 0000 4000 4006 f149 0a0a 373e
+	0x0010:  0a0a fe34 053f 0050 744c 84b9 0000 0000
+	0x0020:  5004 0000 67c5 0000
+09:38:48.178558 IP (tos 0x0, ttl 64, id 61626, offset 0, flags [none], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1344 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [S], cksum 0xbf6d (correct), seq 1282234365, win 512, length 0
+	0x0000:  4500 0028 f0ba 0000 4006 408f 0a0a 373e
+	0x0010:  0a0a fe34 0540 0050 4c6d 57fd 31f3 c900
+	0x0020:  5002 0200 bf6d 0000
+09:38:48.178654 IP (tos 0x0, ttl 63, id 0, offset 0, flags [DF], proto TCP (6), length 44)
+    ip-10-10-254-52.eu-west-1.compute.internal.http > ip-10-10-55-62.eu-west-1.compute.internal.1344: Flags [S.], cksum 0x49a5 (incorrect -> 0x97e9), seq 10424603, ack 1282234366, win
+64240, options [mss 1460], length 0
+	0x0000:  4500 002c 0000 4000 3f06 f245 0a0a fe34
+	0x0010:  0a0a 373e 0050 0540 009f 111b 4c6d 57fe
+	0x0020:  6012 faf0 49a5 0000 0204 05b4
+09:38:48.179017 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1344 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [R], cksum 0xbc5e (correct), seq 1282234366, win 0, length 0
+	0x0000:  4500 0028 0000 4000 4006 f149 0a0a 373e
+	0x0010:  0a0a fe34 0540 0050 4c6d 57fe 0000 0000
+	0x0020:  5004 0000 bc5e 0000
+09:38:49.178845 IP (tos 0x0, ttl 64, id 26065, offset 0, flags [none], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1345 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [S], cksum 0x346c (correct), seq 1008968525, win 512, length 0
+	0x0000:  4500 0028 65d1 0000 4006 cb78 0a0a 373e
+	0x0010:  0a0a fe34 0541 0050 3c23 a34d 308c 1a62
+	0x0020:  5002 0200 346c 0000
+09:38:49.178939 IP (tos 0x0, ttl 63, id 0, offset 0, flags [DF], proto TCP (6), length 44)
+    ip-10-10-254-52.eu-west-1.compute.internal.http > ip-10-10-55-62.eu-west-1.compute.internal.1345: Flags [S.], cksum 0x49a5 (incorrect -> 0x3f93), seq 1512297701, ack 1008968526, win
+64240, options [mss 1460], length 0
+	0x0000:  4500 002c 0000 4000 3f06 f245 0a0a fe34
+	0x0010:  0a0a 373e 0050 0541 5a23 d4e5 3c23 a34e
+	0x0020:  6012 faf0 49a5 0000 0204 05b4
+09:38:49.179231 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1345 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [R], cksum 0x8157 (correct), seq 1008968526, win 0, length 0
+	0x0000:  4500 0028 0000 4000 4006 f149 0a0a 373e
+	0x0010:  0a0a fe34 0541 0050 3c23 a34e 0000 0000
+	0x0020:  5004 0000 8157 0000
+09:38:50.179140 IP (tos 0x0, ttl 64, id 60070, offset 0, flags [none], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1346 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [S], cksum 0x6d4d (correct), seq 1497614465, win 512, length 0
+	0x0000:  4500 0028 eaa6 0000 4006 46a3 0a0a 373e
+	0x0010:  0a0a fe34 0542 0050 5943 c881 2741 a876
+	0x0020:  5002 0200 6d4d 0000
+09:38:50.179236 IP (tos 0x0, ttl 63, id 0, offset 0, flags [DF], proto TCP (6), length 44)
+    ip-10-10-254-52.eu-west-1.compute.internal.http > ip-10-10-55-62.eu-west-1.compute.internal.1346: Flags [S.], cksum 0x49a5 (incorrect -> 0x7cc1), seq 3596933408, ack 1497614466, win
+64240, options [mss 1460], length 0
+	0x0000:  4500 002c 0000 4000 3f06 f245 0a0a fe34
+	0x0010:  0a0a 373e 0050 0542 d664 d920 5943 c882
+	0x0020:  6012 faf0 49a5 0000 0204 05b4
+09:38:50.180452 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1346 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [R], cksum 0x3f02 (correct), seq 1497614466, win 0, length 0
+	0x0000:  4500 0028 0000 4000 4006 f149 0a0a 373e
+	0x0010:  0a0a fe34 0542 0050 5943 c882 0000 0000
+	0x0020:  5004 0000 3f02 0000
+09:38:51.179345 IP (tos 0x0, ttl 64, id 46797, offset 0, flags [none], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1347 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [S], cksum 0x19f6 (correct), seq 1104669747, win 512, length 0
+	0x0000:  4500 0028 b6cd 0000 4006 7a7c 0a0a 373e
+	0x0010:  0a0a fe34 0543 0050 41d7 ec33 4b28 cb9f
+	0x0020:  5002 0200 19f6 0000
+09:38:51.179436 IP (tos 0x0, ttl 63, id 0, offset 0, flags [DF], proto TCP (6), length 44)
+    ip-10-10-254-52.eu-west-1.compute.internal.http > ip-10-10-55-62.eu-west-1.compute.internal.1347: Flags [S.], cksum 0x49a5 (incorrect -> 0x3954), seq 426036551, ack 1104669748, win
+64240, options [mss 1460], length 0
+	0x0000:  4500 002c 0000 4000 3f06 f245 0a0a fe34
+	0x0010:  0a0a 373e 0050 0543 1964 cd47 41d7 ec34
+	0x0020:  6012 faf0 49a5 0000 0204 05b4
+09:38:51.179711 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1347 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [R], cksum 0x32bb (correct), seq 1104669748, win 0, length 0
+	0x0000:  4500 0028 0000 4000 4006 f149 0a0a 373e
+	0x0010:  0a0a fe34 0543 0050 41d7 ec34 0000 0000
+	0x0020:  5004 0000 32bb 0000
+09:38:52.179605 IP (tos 0x0, ttl 64, id 30248, offset 0, flags [none], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1348 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [S], cksum 0x0dee (correct), seq 1736773508, win 512, length 0
+	0x0000:  4500 0028 7628 0000 4006 bb21 0a0a 373e
+	0x0010:  0a0a fe34 0544 0050 6785 0f84 334c a684
+	0x0020:  5002 0200 0dee 0000
+09:38:52.179695 IP (tos 0x0, ttl 63, id 0, offset 0, flags [DF], proto TCP (6), length 44)
+    ip-10-10-254-52.eu-west-1.compute.internal.http > ip-10-10-55-62.eu-west-1.compute.internal.1348: Flags [S.], cksum 0x49a5 (incorrect -> 0x0fc3), seq 3057651965, ack 1736773509, win
+64240, options [mss 1460], length 0
+	0x0000:  4500 002c 0000 4000 3f06 f245 0a0a fe34
+	0x0010:  0a0a 373e 0050 0544 b640 10fd 6785 0f85
+	0x0020:  6012 faf0 49a5 0000 0204 05b4
+09:38:52.179982 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1348 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [R], cksum 0xe9bb (correct), seq 1736773509, win 0, length 0
+	0x0000:  4500 0028 0000 4000 4006 f149 0a0a 373e
+	0x0010:  0a0a fe34 0544 0050 6785 0f85 0000 0000
+	0x0020:  5004 0000 e9bb 0000
+09:38:53.179834 IP (tos 0x0, ttl 64, id 3947, offset 0, flags [none], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1349 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [S], cksum 0x95b8 (correct), seq 2110159856, win 512, length 0
+	0x0000:  4500 0028 0f6b 0000 4006 21df 0a0a 373e
+	0x0010:  0a0a fe34 0545 0050 7dc6 7bf0 4354 8c03
+	0x0020:  5002 0200 95b8 0000
+09:38:53.179928 IP (tos 0x0, ttl 63, id 0, offset 0, flags [DF], proto TCP (6), length 44)
+    ip-10-10-254-52.eu-west-1.compute.internal.http > ip-10-10-55-62.eu-west-1.compute.internal.1349: Flags [S.], cksum 0x49a5 (incorrect -> 0x5ef7), seq 2318822180, ack 2110159857, win
+64240, options [mss 1460], length 0
+	0x0000:  4500 002c 0000 4000 3f06 f245 0a0a fe34
+	0x0010:  0a0a 373e 0050 0545 8a36 6b24 7dc6 7bf1
+	0x0020:  6012 faf0 49a5 0000 0204 05b4
+09:38:53.180257 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1349 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [R], cksum 0x670d (correct), seq 2110159857, win 0, length 0
+	0x0000:  4500 0028 0000 4000 4006 f149 0a0a 373e
+	0x0010:  0a0a fe34 0545 0050 7dc6 7bf1 0000 0000
+	0x0020:  5004 0000 670d 0000
+09:38:54.180065 IP (tos 0x0, ttl 64, id 24641, offset 0, flags [none], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1350 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [S], cksum 0x35f5 (correct), seq 1534562458, win 512, length 0
+	0x0000:  4500 0028 6041 0000 4006 d108 0a0a 373e
+	0x0010:  0a0a fe34 0546 0050 5b77 909a 3f9a fd24
+	0x0020:  5002 0200 35f5 0000
+09:38:54.180155 IP (tos 0x0, ttl 63, id 0, offset 0, flags [DF], proto TCP (6), length 44)
+    ip-10-10-254-52.eu-west-1.compute.internal.http > ip-10-10-55-62.eu-west-1.compute.internal.1350: Flags [S.], cksum 0x49a5 (incorrect -> 0x4fdb), seq 4256240745, ack 1534562459, win
+64240, options [mss 1460], length 0
+	0x0000:  4500 002c 0000 4000 3f06 f245 0a0a fe34
+	0x0010:  0a0a 373e 0050 0546 fdb1 1469 5b77 909b
+	0x0020:  6012 faf0 49a5 0000 0204 05b4
+09:38:54.180494 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1350 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [R], cksum 0x74b1 (correct), seq 1534562459, win 0, length 0
+	0x0000:  4500 0028 0000 4000 4006 f149 0a0a 373e
+	0x0010:  0a0a fe34 0546 0050 5b77 909b 0000 0000
+	0x0020:  5004 0000 74b1 0000
+09:38:55.180353 IP (tos 0x0, ttl 64, id 40948, offset 0, flags [none], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1351 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [S], cksum 0xb625 (correct), seq 702503426, win 512, length 0
+	0x0000:  4500 0028 9ff4 0000 4006 9155 0a0a 373e
+	0x0010:  0a0a fe34 0547 0050 29df 5a02 22f5 01c9
+	0x0020:  5002 0200 b625 0000
+09:38:55.180446 IP (tos 0x0, ttl 63, id 0, offset 0, flags [DF], proto TCP (6), length 44)
+    ip-10-10-254-52.eu-west-1.compute.internal.http > ip-10-10-55-62.eu-west-1.compute.internal.1351: Flags [S.], cksum 0x49a5 (incorrect -> 0x5669), seq 151808688, ack 702503427, win
+64240, options [mss 1460], length 0
+	0x0000:  4500 002c 0000 4000 3f06 f245 0a0a fe34
+	0x0010:  0a0a 373e 0050 0547 090c 6ab0 29df 5a03
+	0x0020:  6012 faf0 49a5 0000 0204 05b4
+09:38:55.180918 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1351 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [R], cksum 0xdce0 (correct), seq 702503427, win 0, length 0
+	0x0000:  4500 0028 0000 4000 4006 f149 0a0a 373e
+	0x0010:  0a0a fe34 0547 0050 29df 5a03 0000 0000
+	0x0020:  5004 0000 dce0 0000
+09:38:56.180622 IP (tos 0x0, ttl 64, id 43242, offset 0, flags [none], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.lotusnote > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [S], cksum 0xf3a7 (correct), seq 955993281, win 512, length 0
+	0x0000:  4500 0028 a8ea 0000 4006 885f 0a0a 373e
+	0x0010:  0a0a fe34 0548 0050 38fb 4cc1 4088 a4d7
+	0x0020:  5002 0200 f3a7 0000
+09:38:56.180711 IP (tos 0x0, ttl 63, id 0, offset 0, flags [DF], proto TCP (6), length 44)
+    ip-10-10-254-52.eu-west-1.compute.internal.http > ip-10-10-55-62.eu-west-1.compute.internal.lotusnote: Flags [S.], cksum 0x49a5 (incorrect -> 0x9d87), seq 2670496661, ack 955993282,
+win 64240, options [mss 1460], length 0
+	0x0000:  4500 002c 0000 4000 3f06 f245 0a0a fe34
+	0x0010:  0a0a 373e 0050 0548 9f2c 8b95 38fb 4cc2
+	0x0020:  6012 faf0 49a5 0000 0204 05b4
+09:38:56.181063 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.lotusnote > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [R], cksum 0xdb04 (correct), seq 955993282, win 0, length 0
+	0x0000:  4500 0028 0000 4000 4006 f149 0a0a 373e
+	0x0010:  0a0a fe34 0548 0050 38fb 4cc2 0000 0000
+	0x0020:  5004 0000 db04 0000
+09:38:57.180866 IP (tos 0x0, ttl 64, id 43094, offset 0, flags [none], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1353 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [S], cksum 0x8aec (correct), seq 851133110, win 512, length 0
+	0x0000:  4500 0028 a856 0000 4006 88f3 0a0a 373e
+	0x0010:  0a0a fe34 0549 0050 32bb 42b6 34d5 2990
+	0x0020:  5002 0200 8aec 0000
+09:38:57.180957 IP (tos 0x0, ttl 63, id 0, offset 0, flags [DF], proto TCP (6), length 44)
+    ip-10-10-254-52.eu-west-1.compute.internal.http > ip-10-10-55-62.eu-west-1.compute.internal.1353: Flags [S.], cksum 0x49a5 (incorrect -> 0x86ea), seq 3538058950, ack 851133111, win
+64240, options [mss 1460], length 0
+	0x0000:  4500 002c 0000 4000 3f06 f245 0a0a fe34
+	0x0010:  0a0a 373e 0050 0549 d2e2 7ec6 32bb 42b7
+	0x0020:  6012 faf0 49a5 0000 0204 05b4
+09:38:57.181281 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1353 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [R], cksum 0xeb4e (correct), seq 851133111, win 0, length 0
+	0x0000:  4500 0028 0000 4000 4006 f149 0a0a 373e
+	0x0010:  0a0a fe34 0549 0050 32bb 42b7 0000 0000
+	0x0020:  5004 0000 eb4e 0000
+09:38:58.181095 IP (tos 0x0, ttl 64, id 29014, offset 0, flags [none], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1354 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [S], cksum 0x6978 (correct), seq 144730586, win 512, length 0
+	0x0000:  4500 0028 7156 0000 4006 bff3 0a0a 373e
+	0x0010:  0a0a fe34 054a 0050 08a0 69da 0142 818d
+	0x0020:  5002 0200 6978 0000
+09:38:58.181193 IP (tos 0x0, ttl 63, id 0, offset 0, flags [DF], proto TCP (6), length 44)
+    ip-10-10-254-52.eu-west-1.compute.internal.http > ip-10-10-55-62.eu-west-1.compute.internal.1354: Flags [S.], cksum 0x49a5 (incorrect -> 0x27c6), seq 631279139, ack 144730587, win
+64240, options [mss 1460], length 0
+	0x0000:  4500 002c 0000 4000 3f06 f245 0a0a fe34
+	0x0010:  0a0a 373e 0050 054a 25a0 8e23 08a0 69db
+	0x0020:  6012 faf0 49a5 0000 0204 05b4
+09:38:58.181506 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1354 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [R], cksum 0xee44 (correct), seq 144730587, win 0, length 0
+	0x0000:  4500 0028 0000 4000 4006 f149 0a0a 373e
+	0x0010:  0a0a fe34 054a 0050 08a0 69db 0000 0000
+	0x0020:  5004 0000 ee44 0000
+09:38:59.181391 IP (tos 0x0, ttl 64, id 35769, offset 0, flags [none], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1355 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [S], cksum 0x7a61 (correct), seq 663444116, win 512, length 0
+	0x0000:  4500 0028 8bb9 0000 4006 a590 0a0a 373e
+	0x0010:  0a0a fe34 054b 0050 278b 5a94 3d66 24da
+	0x0020:  5002 0200 7a61 0000
+09:38:59.181482 IP (tos 0x0, ttl 63, id 0, offset 0, flags [DF], proto TCP (6), length 44)
+    ip-10-10-254-52.eu-west-1.compute.internal.http > ip-10-10-55-62.eu-west-1.compute.internal.1355: Flags [S.], cksum 0x49a5 (incorrect -> 0x50c2), seq 3136077876, ack 663444117, win
+64240, options [mss 1460], length 0
+	0x0000:  4500 002c 0000 4000 3f06 f245 0a0a fe34
+	0x0010:  0a0a 373e 0050 054b baec c034 278b 5a95
+	0x0020:  6012 faf0 49a5 0000 0204 05b4
+09:38:59.181796 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1355 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [R], cksum 0xde9e (correct), seq 663444117, win 0, length 0
+	0x0000:  4500 0028 0000 4000 4006 f149 0a0a 373e
+	0x0010:  0a0a fe34 054b 0050 278b 5a95 0000 0000
+	0x0020:  5004 0000 de9e 0000
+09:39:00.182051 IP (tos 0x0, ttl 64, id 13359, offset 0, flags [none], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1356 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [S], cksum 0x858f (correct), seq 348438630, win 512, length 0
+	0x0000:  4500 0028 342f 0000 4006 fd1a 0a0a 373e
+	0x0010:  0a0a fe34 054c 0050 14c4 c066 16a9 ed5c
+	0x0020:  5002 0200 858f 0000
+09:39:00.182142 IP (tos 0x0, ttl 63, id 0, offset 0, flags [DF], proto TCP (6), length 44)
+    ip-10-10-254-52.eu-west-1.compute.internal.http > ip-10-10-55-62.eu-west-1.compute.internal.1356: Flags [S.], cksum 0x49a5 (incorrect -> 0x607e), seq 3716954828, ack 348438631, win
+64240, options [mss 1460], length 0
+	0x0000:  4500 002c 0000 4000 3f06 f245 0a0a fe34
+	0x0010:  0a0a 373e 0050 054c dd8c 3acc 14c4 c067
+	0x0020:  6012 faf0 49a5 0000 0204 05b4
+09:39:00.183199 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1356 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [R], cksum 0x8b92 (correct), seq 348438631, win 0, length 0
+	0x0000:  4500 0028 0000 4000 4006 f149 0a0a 373e
+	0x0010:  0a0a fe34 054c 0050 14c4 c067 0000 0000
+	0x0020:  5004 0000 8b92 0000
+09:39:01.181890 IP (tos 0x0, ttl 64, id 65486, offset 0, flags [none], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1357 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [S], cksum 0x6db9 (correct), seq 334015244, win 512, length 0
+	0x0000:  4500 0028 ffce 0000 4006 317b 0a0a 373e
+	0x0010:  0a0a fe34 054d 0050 13e8 ab0c 5881 d98f
+	0x0020:  5002 0200 6db9 0000
+09:39:01.181980 IP (tos 0x0, ttl 63, id 0, offset 0, flags [DF], proto TCP (6), length 44)
+    ip-10-10-254-52.eu-west-1.compute.internal.http > ip-10-10-55-62.eu-west-1.compute.internal.1357: Flags [S.], cksum 0x49a5 (incorrect -> 0xadf5), seq 2930651752, ack 334015245, win
+64240, options [mss 1460], length 0
+	0x0000:  4500 002c 0000 4000 3f06 f245 0a0a fe34
+	0x0010:  0a0a 373e 0050 054d aeae 3268 13e8 ab0d
+	0x0020:  6012 faf0 49a5 0000 0204 05b4
+09:39:01.182346 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1357 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [R], cksum 0xa1c7 (correct), seq 334015245, win 0, length 0
+	0x0000:  4500 0028 0000 4000 4006 f149 0a0a 373e
+	0x0010:  0a0a fe34 054d 0050 13e8 ab0d 0000 0000
+	0x0020:  5004 0000 a1c7 0000
+09:39:02.183152 IP (tos 0x0, ttl 64, id 42578, offset 0, flags [none], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1358 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [S], cksum 0xa53d (correct), seq 780952026, win 512, length 0
+	0x0000:  4500 0028 a652 0000 4006 8af7 0a0a 373e
+	0x0010:  0a0a fe34 054e 0050 2e8c 61da 4006 e913
+	0x0020:  5002 0200 a53d 0000
+09:39:02.183247 IP (tos 0x0, ttl 63, id 0, offset 0, flags [DF], proto TCP (6), length 44)
+    ip-10-10-254-52.eu-west-1.compute.internal.http > ip-10-10-55-62.eu-west-1.compute.internal.1358: Flags [S.], cksum 0x49a5 (incorrect -> 0x4a69), seq 3519258988, ack 780952027, win
+64240, options [mss 1460], length 0
+	0x0000:  4500 002c 0000 4000 3f06 f245 0a0a fe34
+	0x0010:  0a0a 373e 0050 054e d1c3 a16c 2e8c 61db
+	0x0020:  6012 faf0 49a5 0000 0204 05b4
+09:39:02.184308 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1358 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [R], cksum 0xd054 (correct), seq 780952027, win 0, length 0
+	0x0000:  4500 0028 0000 4000 4006 f149 0a0a 373e
+	0x0010:  0a0a fe34 054e 0050 2e8c 61db 0000 0000
+	0x0020:  5004 0000 d054 0000
+09:39:03.182409 IP (tos 0x0, ttl 64, id 12885, offset 0, flags [none], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1359 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [S], cksum 0x713a (correct), seq 1924126722, win 512, length 0
+	0x0000:  4500 0028 3255 0000 4006 fef4 0a0a 373e
+	0x0010:  0a0a fe34 054f 0050 72af d802 3dcd 6503
+	0x0020:  5002 0200 713a 0000
+09:39:03.182507 IP (tos 0x0, ttl 63, id 0, offset 0, flags [DF], proto TCP (6), length 44)
+    ip-10-10-254-52.eu-west-1.compute.internal.http > ip-10-10-55-62.eu-west-1.compute.internal.1359: Flags [S.], cksum 0x49a5 (incorrect -> 0x4b91), seq 2785350070, ack 1924126723, win
+64240, options [mss 1460], length 0
+	0x0000:  4500 002c 0000 4000 3f06 f245 0a0a fe34
+	0x0010:  0a0a 373e 0050 054f a605 11b6 72af d803
+	0x0020:  6012 faf0 49a5 0000 0204 05b4
+09:39:03.182879 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1359 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [R], cksum 0x1608 (correct), seq 1924126723, win 0, length 0
+	0x0000:  4500 0028 0000 4000 4006 f149 0a0a 373e
+	0x0010:  0a0a fe34 054f 0050 72af d803 0000 0000
+	0x0020:  5004 0000 1608 0000
+09:39:04.182401 IP (tos 0x0, ttl 64, id 12153, offset 0, flags [none], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1360 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [S], cksum 0x2b4e (correct), seq 1025435501, win 512, length 0
+	0x0000:  4500 0028 2f79 0000 4006 01d1 0a0a 373e
+	0x0010:  0a0a fe34 0550 0050 3d1e e76d 1944 f59d
+	0x0020:  5002 0200 2b4e 0000
+09:39:04.182495 IP (tos 0x0, ttl 63, id 0, offset 0, flags [DF], proto TCP (6), length 44)
+    ip-10-10-254-52.eu-west-1.compute.internal.http > ip-10-10-55-62.eu-west-1.compute.internal.1360: Flags [S.], cksum 0x49a5 (incorrect -> 0xed9c), seq 1268248637, ack 1025435502, win
+64240, options [mss 1460], length 0
+	0x0000:  4500 002c 0000 4000 3f06 f245 0a0a fe34
+	0x0010:  0a0a 373e 0050 0550 4b97 f03d 3d1e e76e
+	0x0020:  6012 faf0 49a5 0000 0204 05b4
+09:39:04.182843 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1360 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [R], cksum 0x3c2d (correct), seq 1025435502, win 0, length 0
+	0x0000:  4500 0028 0000 4000 4006 f149 0a0a 373e
+	0x0010:  0a0a fe34 0550 0050 3d1e e76e 0000 0000
+	0x0020:  5004 0000 3c2d 0000
+09:39:05.182434 IP (tos 0x0, ttl 64, id 12611, offset 0, flags [none], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1361 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [S], cksum 0x3a4c (correct), seq 1241335726, win 512, length 0
+	0x0000:  4500 0028 3143 0000 4006 0007 0a0a 373e
+	0x0010:  0a0a fe34 0551 0050 49fd 47ae 4324 4f9f
+	0x0020:  5002 0200 3a4c 0000
+09:39:05.182531 IP (tos 0x0, ttl 63, id 0, offset 0, flags [DF], proto TCP (6), length 44)
+    ip-10-10-254-52.eu-west-1.compute.internal.http > ip-10-10-55-62.eu-west-1.compute.internal.1361: Flags [S.], cksum 0x49a5 (incorrect -> 0x4ae1), seq 3039083595, ack 1241335727, win
+64240, options [mss 1460], length 0
+	0x0000:  4500 002c 0000 4000 3f06 f245 0a0a fe34
+	0x0010:  0a0a 373e 0050 0551 b524 bc4b 49fd 47af
+	0x0020:  6012 faf0 49a5 0000 0204 05b4
+09:39:05.182927 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1361 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [R], cksum 0xcf0c (correct), seq 1241335727, win 0, length 0
+	0x0000:  4500 0028 0000 4000 4006 f149 0a0a 373e
+	0x0010:  0a0a fe34 0551 0050 49fd 47af 0000 0000
+	0x0020:  5004 0000 cf0c 0000
+09:39:06.182415 IP (tos 0x0, ttl 64, id 54810, offset 0, flags [none], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1362 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [S], cksum 0xe4a5 (correct), seq 2045831075, win 512, length 0
+	0x0000:  4500 0028 d61a 0000 4006 5b2f 0a0a 373e
+	0x0010:  0a0a fe34 0552 0050 79f0 e7a3 7c1f 9c60
+	0x0020:  5002 0200 e4a5 0000
+09:39:06.182512 IP (tos 0x0, ttl 63, id 0, offset 0, flags [DF], proto TCP (6), length 44)
+    ip-10-10-254-52.eu-west-1.compute.internal.http > ip-10-10-55-62.eu-west-1.compute.internal.1362: Flags [S.], cksum 0x49a5 (incorrect -> 0x2754), seq 1261664736, ack 2045831076, win
+64240, options [mss 1460], length 0
+	0x0000:  4500 002c 0000 4000 3f06 f245 0a0a fe34
+	0x0010:  0a0a 373e 0050 0552 4b33 79e0 79f0 e7a4
+	0x0020:  6012 faf0 49a5 0000 0204 05b4
+09:39:06.187136 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1362 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [R], cksum 0xff22 (correct), seq 2045831076, win 0, length 0
+	0x0000:  4500 0028 0000 4000 4006 f149 0a0a 373e
+	0x0010:  0a0a fe34 0552 0050 79f0 e7a4 0000 0000
+	0x0020:  5004 0000 ff22 0000
+09:39:07.182423 IP (tos 0x0, ttl 64, id 65450, offset 0, flags [none], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1363 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [S], cksum 0x72fc (correct), seq 1295945869, win 512, length 0
+	0x0000:  4500 0028 ffaa 0000 4006 319f 0a0a 373e
+	0x0010:  0a0a fe34 0553 0050 4d3e 908d 2eda df16
+	0x0020:  5002 0200 72fc 0000
+09:39:07.182516 IP (tos 0x0, ttl 63, id 0, offset 0, flags [DF], proto TCP (6), length 44)
+    ip-10-10-254-52.eu-west-1.compute.internal.http > ip-10-10-55-62.eu-west-1.compute.internal.1363: Flags [S.], cksum 0x49a5 (incorrect -> 0x2e33), seq 126499442, ack 1295945870, win
+64240, options [mss 1460], length 0
+	0x0000:  4500 002c 0000 4000 3f06 f245 0a0a fe34
+	0x0010:  0a0a 373e 0050 0553 078a 3a72 4d3e 908e
+	0x0020:  6012 faf0 49a5 0000 0204 05b4
+09:39:07.182864 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1363 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [R], cksum 0x82ea (correct), seq 1295945870, win 0, length 0
+	0x0000:  4500 0028 0000 4000 4006 f149 0a0a 373e
+	0x0010:  0a0a fe34 0553 0050 4d3e 908e 0000 0000
+	0x0020:  5004 0000 82ea 0000
+09:39:08.182435 IP (tos 0x0, ttl 64, id 33079, offset 0, flags [none], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1364 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [S], cksum 0x980f (correct), seq 223951076, win 512, length 0
+	0x0000:  4500 0028 8137 0000 4006 b012 0a0a 373e
+	0x0010:  0a0a fe34 0554 0050 0d59 38e4 377b 48f0
+	0x0020:  5002 0200 980f 0000
+09:39:08.182527 IP (tos 0x0, ttl 63, id 0, offset 0, flags [DF], proto TCP (6), length 44)
+    ip-10-10-254-52.eu-west-1.compute.internal.http > ip-10-10-55-62.eu-west-1.compute.internal.1364: Flags [S.], cksum 0x49a5 (incorrect -> 0xf556), seq 645917670, ack 223951077, win
+64240, options [mss 1460], length 0
+	0x0000:  4500 002c 0000 4000 3f06 f245 0a0a fe34
+	0x0010:  0a0a 373e 0050 0554 267f ebe6 0d59 38e5
+	0x0020:  6012 faf0 49a5 0000 0204 05b4
+09:39:08.182877 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1364 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [R], cksum 0x1a78 (correct), seq 223951077, win 0, length 0
+	0x0000:  4500 0028 0000 4000 4006 f149 0a0a 373e
+	0x0010:  0a0a fe34 0554 0050 0d59 38e5 0000 0000
+	0x0020:  5004 0000 1a78 0000
+09:39:09.182451 IP (tos 0x0, ttl 64, id 42514, offset 0, flags [none], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1365 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [S], cksum 0x3289 (correct), seq 2137500218, win 512, length 0
+	0x0000:  4500 0028 a612 0000 4006 8b37 0a0a 373e
+	0x0010:  0a0a fe34 0555 0050 7f67 aa3a 5f06 a385
+	0x0020:  5002 0200 3289 0000
+09:39:09.182542 IP (tos 0x0, ttl 63, id 0, offset 0, flags [DF], proto TCP (6), length 44)
+    ip-10-10-254-52.eu-west-1.compute.internal.http > ip-10-10-55-62.eu-west-1.compute.internal.1365: Flags [S.], cksum 0x49a5 (incorrect -> 0xc66d), seq 225792116, ack 2137500219, win
+64240, options [mss 1460], length 0
+	0x0000:  4500 002c 0000 4000 3f06 f245 0a0a fe34
+	0x0010:  0a0a 373e 0050 0555 0d75 5074 7f67 aa3b
+	0x0020:  6012 faf0 49a5 0000 0204 05b4
+09:39:09.182880 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1365 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [R], cksum 0x3712 (correct), seq 2137500219, win 0, length 0
+	0x0000:  4500 0028 0000 4000 4006 f149 0a0a 373e
+	0x0010:  0a0a fe34 0555 0050 7f67 aa3b 0000 0000
+	0x0020:  5004 0000 3712 0000
+09:39:10.182508 IP (tos 0x0, ttl 64, id 37742, offset 0, flags [none], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1366 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [S], cksum 0x2f0a (correct), seq 570570227, win 512, length 0
+	0x0000:  4500 0028 936e 0000 4006 9ddb 0a0a 373e
+	0x0010:  0a0a fe34 0556 0050 2202 35f3 73cb 63eb
+	0x0020:  5002 0200 2f0a 0000
+09:39:10.182600 IP (tos 0x0, ttl 63, id 0, offset 0, flags [DF], proto TCP (6), length 44)
+    ip-10-10-254-52.eu-west-1.compute.internal.http > ip-10-10-55-62.eu-west-1.compute.internal.1366: Flags [S.], cksum 0x49a5 (incorrect -> 0x116b), seq 3660384874, ack 570570228, win
+64240, options [mss 1460], length 0
+	0x0000:  4500 002c 0000 4000 3f06 f245 0a0a fe34
+	0x0010:  0a0a 373e 0050 0556 da2d 0a6a 2202 35f4
+	0x0020:  6012 faf0 49a5 0000 0204 05b4
+09:39:10.183033 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1366 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [R], cksum 0x08be (correct), seq 570570228, win 0, length 0
+	0x0000:  4500 0028 0000 4000 4006 f149 0a0a 373e
+	0x0010:  0a0a fe34 0556 0050 2202 35f4 0000 0000
+	0x0020:  5004 0000 08be 0000
+09:39:11.182510 IP (tos 0x0, ttl 64, id 27901, offset 0, flags [none], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1367 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [S], cksum 0x7209 (correct), seq 1809738274, win 512, length 0
+	0x0000:  4500 0028 6cfd 0000 4006 c44c 0a0a 373e
+	0x0010:  0a0a fe34 0557 0050 6bde 6a22 07b4 0ef7
+	0x0020:  5002 0200 7209 0000
+09:39:11.182612 IP (tos 0x0, ttl 63, id 0, offset 0, flags [DF], proto TCP (6), length 44)
+    ip-10-10-254-52.eu-west-1.compute.internal.http > ip-10-10-55-62.eu-west-1.compute.internal.1367: Flags [S.], cksum 0x49a5 (incorrect -> 0xc255), seq 4080452201, ack 1809738275, win
+64240, options [mss 1460], length 0
+	0x0000:  4500 002c 0000 4000 3f06 f245 0a0a fe34
+	0x0010:  0a0a 373e 0050 0557 f336 c269 6bde 6a23
+	0x0020:  6012 faf0 49a5 0000 0204 05b4
+09:39:11.182966 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1367 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [R], cksum 0x8ab1 (correct), seq 1809738275, win 0, length 0
+	0x0000:  4500 0028 0000 4000 4006 f149 0a0a 373e
+	0x0010:  0a0a fe34 0557 0050 6bde 6a23 0000 0000
+	0x0020:  5004 0000 8ab1 0000
+09:39:12.182556 IP (tos 0x0, ttl 64, id 22032, offset 0, flags [none], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1368 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [S], cksum 0x4ccf (correct), seq 14903792, win 512, length 0
+	0x0000:  4500 0028 5610 0000 4006 db39 0a0a 373e
+	0x0010:  0a0a fe34 0558 0050 00e3 69f0 3640 70d1
+	0x0020:  5002 0200 4ccf 0000
+09:39:12.182658 IP (tos 0x0, ttl 63, id 0, offset 0, flags [DF], proto TCP (6), length 44)
+    ip-10-10-254-52.eu-west-1.compute.internal.http > ip-10-10-55-62.eu-west-1.compute.internal.1368: Flags [S.], cksum 0x49a5 (incorrect -> 0xc0e5), seq 1340133980, ack 14903793, win
+64240, options [mss 1460], length 0
+	0x0000:  4500 002c 0000 4000 3f06 f245 0a0a fe34
+	0x0010:  0a0a 373e 0050 0558 4fe0 d25c 00e3 69f1
+	0x0020:  6012 faf0 49a5 0000 0204 05b4
+09:39:12.182983 IP (tos 0x0, ttl 64, id 0, offset 0, flags [DF], proto TCP (6), length 40)
+    ip-10-10-55-62.eu-west-1.compute.internal.1368 > ip-10-10-254-52.eu-west-1.compute.internal.http: Flags [R], cksum 0xf5dd (correct), seq 14903793, win 0, length 0
+	0x0000:  4500 0028 0000 4000 4006 f149 0a0a 373e
+	0x0010:  0a0a fe34 0558 0050 00e3 69f1 0000 0000
+	0x0020:  5004 0000 f5dd 0000
