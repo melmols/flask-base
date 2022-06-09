@@ -227,6 +227,13 @@ body .row.genresResult ul {
   white-space: normal;
   list-style: none;
 }
+body {
+    font-family: Ubuntu, sans-serif;
+    background-image: url(https://assets.tryhackme.com/img/svgs/star-pattern.svg);
+    background-color: #000;
+    cursor: url(../img/sabre.cur),default;
+    height: 100%;
+}
 #box
 {
     width: 1000px;
