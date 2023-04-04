@@ -1,0 +1,242 @@
+.navbar {
+    -moz-transition: background 0.3s ease;
+    -o-transition: background 0.3s ease;
+    -webkit-transition: background 0.3s ease;
+    transition: background 0.3s ease;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .navbar.transparency {
+    background: transparent !important;
+    border: none;
+    box-shadow: none;
+  }
+
+  .navbar .navbar-brand {
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+
+  .navbar.transparency .navbar-brand {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+    border: none;
+  }
+
+  .navbar.transparency .nav-link, .navbar.transparency .nav-link.active, .navbar.transparency .nav-link:focus {
+    color: #fff;
+    border: none;
+    opacity: 1;
+  }
+
+  .navbar.transparency .nav-link:hover {
+    color: #fff;
+    opacity: .7;
+  }
+
+  .navbar-toggler {
+    position: relative;
+    height: 35px;
+    margin-right: -.75rem;
+    border: none;
+  }
+
+  .navbar-toggler:focus, .navbar-toggler:active {
+    outline: 0;
+  }
+
+  .navbar-toggler span {
+    display: block;
+    background-color: #6f6f6e;
+    height: 2px;
+    width: 25px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    position: relative;
+    left: 0;
+    opacity: 1;
+  }
+
+  .navbar.transparency .navbar-toggler span {
+    background: #fff;
+  }
+
+  .navbar-toggler span:nth-child(1), .navbar-toggler span:nth-child(3) {
+    webkit-transition: transform .35s ease-in-out;
+    -moz-transition: transform .35s ease-in-out;
+    -o-transition: transform .35s ease-in-out;
+    transition: transform .35s ease-in-out;
+  }
+
+  .navbar-toggler:not(.collapsed) span:nth-child(1) {
+    position: absolute;
+    left: 12px;
+    top: 10px;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+    opacity: 0.9;
+  }
+
+  .navbar-toggler:not(.collapsed) span:nth-child(2) {
+    height: 12px;
+    visibility: hidden;
+    background-color: transparent;
+  }
+
+  .navbar-toggler:not(.collapsed) span:nth-child(3) {
+    position: absolute;
+    left: 12px;
+    top: 10px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+    opacity: 0.9;
+  }
+
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: black;
+}
+
+body ::-webkit-scrollbar {
+  width: 30px;
+  height: 10px;
+}
+
+body ::-webkit-scrollbar-track {
+  background: #131313;
+}
+
+body ::-webkit-scrollbar-thumb {
+  width: 30px;
+  background: #443200;
+}
+
+body ::-webkit-scrollbar-thumb:hover {
+  background: #ffbb00;
+}
+
+body .row {
+  margin: 30px 10px 20px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  height: 450px;
+}
+
+body .row .catagoryBanner {
+  position: absolute;
+}
+
+body .row .catagoryBanner h4 {
+  margin-bottom: 20px;
+  color: #ffffff;;
+}
+
+body .row ul {
+  margin-top: 50px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .row ul li {
+  white-space: normal;
+  vertical-align: top;
+  display: inline-block;
+  width: 200px;
+  margin-right: 15px;
+  position: relative;
+}
+
+body .row ul li a {
+  text-decoration: none;
+}
+
+body .row ul li img {
+  height: 300px;
+  width: 200px;
+  display: block;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+body .row ul li p {
+  overflow-wrap: break-word;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  text-align: center;
+  margin-top: 5px;
+  color: white;
+  user-select: none;
+}
+
+body .row ul li .ticketBtn {
+  color: #ffffff;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  margin: 0;
+  display: none;
+  background-color: black;
+}
+
+body .row ul li .btn {
+  width: 100px;
+  height: 100px;
+}
+
+body .row ul li:hover img {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+body .row ul li:hover .ticketBtn {
+  display: inline-block;
+}
+
+body .row.genresResult {
+  overflow: auto;
+  height: 100%;
+}
+
+body .row.genresResult ul {
+  margin-top: 50px;
+  white-space: normal;
+  list-style: none;
+}
+body {
+    font-family: Ubuntu, sans-serif;
+    background-image: url(https://assets.tryhackme.com/img/svgs/star-pattern.svg);
+    background-color: #000;
+    cursor: url(../img/sabre.cur),default;
+    height: 100%;
+}
+#box
+{
+    width: 1000px;
+    margin: 0 auto;
+    height:100%;
+}
